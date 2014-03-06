@@ -10,5 +10,10 @@
             "name": "Mike Fisher",
             "email": "mike@mbfisher.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-0": {
+            "Task\\Plugin\\FilesystemPlugin": "src/"
+        }
+    }
 }
