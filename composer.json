@@ -2,6 +2,7 @@
     "name": "task/filesystem",
     "description": "Filesystem plugin for Task using league/flysystem",
     "require": {
+        "task/plugin": "1.1.0",
         "league/flysystem": "~0.2"
     },
     "license": "MIT",
@@ -12,8 +13,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "Task\\Plugin\\FilesystemPlugin": "src/"
+        "psr-4": {
+            "Task\\Plugin\\": "src/"
         }
     }
 }
