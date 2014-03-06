@@ -1,4 +1,4 @@
 task-filesystem
 ===============
 
-Filesystem plugin for Task using thephpleague/flysystem
+Filesystem plugin for Task using league/flysystem

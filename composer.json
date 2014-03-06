@@ -1,0 +1,14 @@
+{
+    "name": "task/filesystem",
+    "description": "Filesystem plugin for Task using league/flysystem",
+    "require": {
+        "league/flysystem": "~0.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Fisher",
+            "email": "mike@mbfisher.com"
+        }
+    ]
+}
